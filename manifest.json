@@ -14,5 +14,8 @@
 		"default_popup": "index.html",
 		"default_icon": "icons/icon48.png"
 	},
-	"permissions": ["storage"]
+	"permissions": ["storage", "scripting", "tabs", "activeTab"],
+	"background": {
+		"service_worker": "service-worker.js"
+	}
 }
