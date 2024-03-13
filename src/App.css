@@ -1,0 +1,11 @@
+.main {
+	width: 600px;
+	height: 200px;
+	padding: 20px;
+}
+
+.local-storage {
+	border: 4px solid steelblue;
+	padding: 10px;
+	margin-bottom: 10px;
+}
